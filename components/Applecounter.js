@@ -39,11 +39,11 @@ const totalapple = 10;
     
     return(
         <div className="applecounter">
-            <Basket basketnumber="1" apple={leftbasketcount[0]}/>
+            <Basket basketnumber="1" apple={leftbasketcount[0]} children="Left Basket" />
             <Button image={rightimg} title="Right arrow" event={rightbasket} />
             
             <Button image={leftimg} title="Left arrow" event={leftbasket}/>
-            <Basket basketnumber=" 2" apple={rightbasketcount[0]} />
+            <Basket basketnumber=" 2" apple={rightbasketcount[0]}>Right Basket</Basket> 
         </div>
     )
 }

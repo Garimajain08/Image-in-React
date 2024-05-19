@@ -1,0 +1,28 @@
+
+.applecounter{
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    margin-inline: auto;
+    justify-content: center;
+    gap:45px;
+    margin-top: 205px;
+}
+.imagebox{
+   max-width: 43px;
+}
+.imagebox img{
+    width:100%;
+}
+.basket{
+    padding: 34px;
+    box-shadow: 1px 1px 3px 3px grey;
+    background-image: url('/mango.641a99fa.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    font-weight: 900;
+   
+ 
+    }
+
+/*# sourceMappingURL=/Children_Prop.e31bb0bc.css.map */
